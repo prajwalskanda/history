@@ -1,0 +1,261 @@
+        * {
+            padding: 0px;
+            margin-top: 5px;
+            margin-left: 0%;
+            margin-right: 0%;
+        }
+        
+        .topbox {
+            background-image: url(../temple.jpg);
+            background-size: cover;
+            height: 200px;
+            background-attachment: scroll;
+            border: 5px solid red;
+            width: 200px;
+            margin-left: 20px;
+        }
+        
+        .middlebox {
+            background-image: url(../temple\ 2.jpg);
+            background-size: cover;
+            height: 200px;
+            background-attachment: scroll;
+            border: 5px solid white;
+            width: 200px;
+            margin-left: 220px;
+        }
+        
+        .bottombox {
+            background-image: url(../temple\ 3.jpg);
+            background-size: cover;
+            height: 200px;
+            background-attachment: scroll;
+            border: 5px solid green;
+            width: 200px;
+            margin-left: 420px;
+        }
+        
+        .image {
+            border: 10px solid black;
+            background-image: url('../sycc.jpg');
+            background-size: cover;
+            height: 300px;
+            background-attachment: scroll;
+        }
+        
+        .comeon {
+            background-color: rgb(68, 125, 143);
+        }
+        
+        h1 {
+            margin-left: 1200px;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: normal;
+            display: inline-block;
+        }
+        
+        h2 {
+            margin-left: 1200px;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: normal;
+            display: inline-block;
+        }
+        
+        .say {
+            margin-left: 250px;
+            height: 100px;
+            font-family: monospace;
+            font-size: x-large;
+            font-style: italic;
+        }
+        
+        .tell {
+            margin-left: 450px;
+            height: 100px;
+            font-family: monospace;
+            font-size: x-large;
+            font-style: italic;
+        }
+        
+        .told {
+            margin-left: 650px;
+            height: 100px;
+            font-family: monospace;
+            font-size: x-large;
+            font-style: italic;
+        }
+        
+        hr {
+            border-style: hidden;
+            border-top-style: dotted;
+            border-color: grey;
+            border-width: 12px;
+            width: 10%;
+            margin-left: 600px;
+        }
+        
+        .soon {
+            border: none;
+        }
+        
+        .hoo {
+            border: none;
+        }
+        
+        .bye {
+            border: none;
+        }
+        
+        .raaz {
+            margin-left: 550px;
+            font-family: 'Times New Roman', Times, serif;
+            font-style: normal;
+            display: inline-block;
+            font-size: xx-large;
+            /* text-decoration: dotted solid slategray; */
+        }
+        
+        .ram {
+            background-color: teal;
+        }
+        
+        .circular {
+            border-radius: 100%;
+            border-style: inherit;
+        }
+        
+        img :hover {
+            background-color: violet;
+        }
+        
+        .om {
+            margin-left: 300px;
+            margin-bottom: o;
+        }
+        
+        .gopi {
+            border-radius: 100%;
+            border-style: inherit;
+            margin-left: 1200px;
+        }
+        
+        .shiva {
+            margin-top: o;
+            margin-bottom: 300px;
+            margin-left: 300px;
+        }
+        
+        .haa {
+            border: none;
+        }
+        
+        .hmm {
+            margin-left: 500px;
+            font-family: cursive;
+        }
+        /* .text1 {
+            text-decoration: underline solid greenyellow;
+            margin-left: 50px;
+        }
+        
+        .sumi {
+            position: relative;
+            top: 50px;
+            margin-left: 200px;
+        }
+        
+        .kumi {
+            position: absolute;
+            top: 150px;
+            margin-left: 650px;
+        } */
+        
+        span {
+            text-decoration: underline red;
+        }
+        
+        .guru {
+            text-decoration: underline lightgrey;
+        }
+        
+        .sisya {
+            text-decoration: underline green;
+        }
+        
+        .supu {
+            text-decoration: underline goldenrod;
+        }
+        
+        .tiger {
+            text-align: right;
+        }
+        
+        .tiger li {
+            display: inline-block;
+        }
+        
+        .tiger a {
+            text-decoration: none;
+            padding: 15px;
+            color: indigo;
+            display: block;
+        }
+        
+        .tiger li:hover {
+            background-color: slategray;
+        }
+        
+        .gagana {
+            border: 5px solid black;
+            background-image: url('../mane.jpg');
+            background-size: contain;
+            height: 300px;
+            background-attachment: fixed;
+            margin-top: 0px;
+        }
+        
+        .praj {
+            font-family: cursive;
+            margin-left: auto;
+            margin-top: 75px;
+            color: greenyellow;
+            font-size: 400%;
+        }
+        
+        .raja {
+            border: 5px solid slategrey;
+            height: 100px;
+            background-color: skyblue;
+        }
+        
+        .okay {
+            text-align: center;
+            font-family: sans-serif;
+        }
+        
+        .rani {
+            text-align: center;
+            font-family: sans-serif;
+        }
+        
+        .buttonClass {
+            font-size: 15px;
+            font-family: Arial;
+            width: 140px;
+            height: 100px;
+            border-width: 1px;
+            color: #ffffff;
+            border-color: #a511c0;
+            font-weight: bold;
+            border-top-left-radius: 6px;
+            border-top-right-radius: 6px;
+            border-bottom-left-radius: 6px;
+            border-bottom-right-radius: 6px;
+            box-shadow: inset 0px 1px 0px 0px #e184f3;
+            text-shadow: inset 0px 1px 0px #9b14b3;
+            background: linear-gradient(#c123de, #a20dbd);
+        }
+        
+        .buttonClass:hover {
+            background: linear-gradient(#887b8a, #3366d3);
+        }
